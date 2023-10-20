@@ -1,0 +1,3 @@
+apt-get install iputils-ping net-tools curl
+kubectl get svc -> name: gowebapp-service
+we can access our balanced ClusterIP inside cluster via name gowebapp-service:8080

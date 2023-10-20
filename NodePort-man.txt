@@ -1,0 +1,3 @@
+in my case I run minikube in docker, so:
+minikube profile list -> cluster IP -> 192.168.49.2
+192.168.49.2:31337
