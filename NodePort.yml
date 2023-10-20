@@ -14,25 +14,6 @@ spec:
       targetPort: 8080
 
 ---
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: gobweapp-vps
-spec:
-  selector:
-    matchLabels:
-      app: gowebapp-vps
-  replicas: 1
-  template:
-    metadata:
-      labels:
-        app: gowebapp-vps
-    spec:
-      containers:
-      - name: gowebapp-vps
-        image: ubuntu:latest
-        command: [ "sleep", "infinity" ]
----
 
 apiVersion: apps/v1
 kind: Deployment
